@@ -15,8 +15,10 @@ stops.delete_at(2)
 #7. Print the number of stops there are in the array?
 p stops.count
 #8. Show as many ways as you can to return "Falkirk High" from the array?
-stops[2]
-stops.at(2)
+p stops[2]
+p stops.at(2)
+p stops.slice(2)
+p stops.fetch(2)
 #9. Reverse the positions of the stops in the array
 p stops.reverse
 #10 Print out all the stops using a for loop
