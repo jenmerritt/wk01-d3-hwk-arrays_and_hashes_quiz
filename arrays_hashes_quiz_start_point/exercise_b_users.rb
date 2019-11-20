@@ -74,13 +74,17 @@ users["Avril"][:pets][0][:species]
 
 erik_lowest = users["Erik"][:lottery_numbers]
 
+erik_lowest.min
+
 # 6. Return an array of Avril's lottery numbers that are even
 
 avril_even = users["Avril"][:lottery_numbers]
 
+avril_even_array =[]
+
 avril_even.each do |num|
   if num % 2 == 0
-    return num
+     avril_even_array += [num]
   end
 end
 
@@ -88,9 +92,11 @@ end
 
 users["Erik"][:lottery_numbers] << 7
 
+
 # 8. Change Erik's hometown to Edinburgh
 
 users["Erik"][:home_town] = "Edinburgh"
+
 
 # 9. Add a pet dog to Erik called "Fluffy"
 
