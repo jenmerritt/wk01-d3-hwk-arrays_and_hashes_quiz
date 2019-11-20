@@ -94,3 +94,19 @@ users["Erik"][:pets] << {
   }
 
 # 10. Add another person to the users hash
+
+users["Bob"] = {
+  :twitter => "bobzz",
+  :lottery_numbers => [10, 5, 32, 1, 21, 17],
+  :home_town => "Perth",
+  :pets => [
+  {
+    :name => "bubbles",
+    :species => "fish"
+  },
+  {
+    :name => "rando",
+    :species => "chameleon"
+  }
+]
+}
